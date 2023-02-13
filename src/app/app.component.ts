@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'aplikacjaAngular';
+  number = 10;
+  number2 = 20;
+}
+
+class Dog {
+  constructor(public name:string, public age:number){};
 }
